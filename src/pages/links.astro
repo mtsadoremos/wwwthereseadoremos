@@ -1,0 +1,120 @@
+---
+//Layouts
+import Layout from '../layouts/PageLayout.astro';
+
+//Icon Library
+import { Icon } from 'astro-icon';
+---
+
+<Layout title="Therese Adoremos">
+	<main class="bg-[#FFFCF8]">
+		<h1 class="text-lg font-semibold text-center my-2 text-[#3f3f3f]">@thereseadoremos</h1>
+        <div class="socialicons bg-[#FFFCF8]">
+            <!-- Social Icons -->
+			<ul class="flex mb-4 md:mb-0 place-content-center">
+				<li>
+					<a
+						class="text-[#3f3f3f] hover:bg-[#ffece8] focus:outline-none focus:ring-4 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="YouTube"
+						href="#"
+					>
+						<Icon name="tabler:brand-youtube" class="w-5 h-5" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="text-[#3f3f3f] hover:bg-gray-100 dark:hover:bg-[#efff98] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="Instagram"
+						href="#"
+					>
+						<Icon name="tabler:brand-instagram" class="w-5 h-5" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="text-[#3f3f3f]  hover:bg-gray-100 dark:hover:bg-[#ffece8] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="TikTok"
+						href="#"
+					>
+						<Icon name="tabler:brand-tiktok" class="w-5 h-5" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="text-[#3f3f3f]  hover:bg-gray-100 dark:hover:bg-[#efff98] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="Twitter"
+						href="/rss.xml"
+					>
+						<Icon name="tabler:brand-twitter" class="w-5 h-5" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="text-[#3f3f3f]  hover:bg-gray-100 dark:hover:bg-[#ffece8] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="Pinterest"
+						href="https://github.com/onwidget/astrowind"
+					>
+						<Icon name="tabler:brand-pinterest" class="w-5 h-5" />
+					</a>
+				</li>
+                <li>
+					<a
+						class="text-[#3f3f3f]  hover:bg-gray-100 dark:hover:bg-[#efff98] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-full text-sm p-2.5 inline-flex items-center"
+						aria-label="Snapchat"
+						href="https://github.com/onwidget/astrowind"
+					>
+						<Icon name="tabler:brand-snapchat" class="w-5 h-5" />
+					</a>
+				</li>
+			</ul>
+            <!-- Link Buttons -->
+            <div class="flex place-content-center my-3">
+                <a href="/" class="w-2/3 rounded-full bg-[#efff98] hover:bg-[#ffece8] text-center text-sm p-1.5">
+                    <b>Watch My Latest Video on YouTube</b><br>
+                    <p class="text-xs">hope you'll leave a like and subscribe</p>
+                </a>
+            </div>
+            <div class="flex place-content-center my-3">
+                <a href="/" class="w-2/3 rounded-full bg-[#ffece8] hover:bg-[#efff98] text-center text-sm p-3.5">
+                    <b>Get Your Free Weekly Goals Planner</b>
+                </a>
+            </div>
+            <div class="flex place-content-center my-3">
+                <a href="/" class="w-2/3 rounded-full bg-[#ffece8] hover:bg-[#efff98] text-center text-sm p-3.5">
+                    <b>Shop My Desk Essentials</b>
+                </a>
+            </div>
+            <div class="flex place-content-center my-3">
+                <a href="/" class="w-2/3 rounded-full bg-[#ffece8] hover:bg-[#efff98] text-center text-sm p-1.5">
+                    <b>Shop my Shopee Finds</b><br>
+                    <p class="text-xs">for my filipino friends</p>
+                </a>
+            </div>
+            <div class="flex place-content-center my-3">
+                <a href="/" class="w-2/3 rounded-full bg-[#ffece8] hover:bg-[#efff98] text-center text-sm p-1.5">
+                    <b>Contact Me</b><br>
+                    <p class="text-xs">let's work together</p>
+                </a>
+            </div>
+        </div>
+	</main>
+</Layout>
+
+<style>
+
+	main {
+		margin: auto;
+		padding: 1em;
+		max-width: 60ch;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+</style>
